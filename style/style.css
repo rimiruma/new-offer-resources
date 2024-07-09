@@ -240,20 +240,74 @@ h1 {
     display: flex;
     justify-content: space-around;
 }
-.girl-container{
+
+.girl-container {
     width: 420px;
     height: 433px;
     top: 5%;
 }
+
 /* .girl-container img{
     width: 100px;
     height: 100px;
 } */
 
-.discount{
+.discount {
     position: absolute;
     bottom: 30%;
     left: 60%;
     z-index: 1;
-    
+
+}
+
+/* portfolio styles */
+
+.portfolio-container {
+    width: 1642px;
+    height: 1200px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+}
+
+.portfolio-text-content h5 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    margin-bottom: 4px;
+}
+
+.portfolio-text-content h2 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    margin-bottom: 4px;
+}
+
+.portfolio-text-content p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 4px;
+}
+
+.items {
+    width: 424px;
+    height: 450px;
+    margin-top: 30px;
+}
+
+.portfolio-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.items {
+    width: 100%;
+    height: 100%;
 }
