@@ -159,14 +159,101 @@ h1 {
     margin-top: 5%;
 }
 
-.rightside-content{
+
+.rightside-content {
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.rightside-content img{
+.rightside-content img {
     width: 70%;
     height: 70%;
+}
+
+/* holiday styles */
+
+.holiday-section-container {
+    width: 1642px;
+    height: 1000px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    margin-top: 5%;
+
+    position: relative;
+}
+
+.holiday-text-contant {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 802.9px; 
+    height: 700px; */
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    margin-top: 5%;
+
+}
+
+.holiday-text-contant h5 {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+.holiday-text-contant h2 {
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+}
+
+#holiday {
+    color: rgb(255, 0, 0);
+}
+
+.holiday-text-contant p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.solid-color {
+    width: 1640px;
+    height: 250px;
+    background-color: red;
+    position: absolute;
+    top: 70%;
+}
+
+.giftbox {
+    /* width: 684.82px;
+    height: 577.396px; */
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+}
+.girl-container{
+    width: 420px;
+    height: 433px;
+    top: 5%;
+}
+/* .girl-container img{
+    width: 100px;
+    height: 100px;
+} */
+
+.discount{
+    position: absolute;
+    bottom: 30%;
+    left: 60%;
+    z-index: 1;
+    
 }
